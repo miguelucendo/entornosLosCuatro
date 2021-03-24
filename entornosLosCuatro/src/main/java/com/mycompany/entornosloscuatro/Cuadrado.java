@@ -22,5 +22,7 @@ public class Cuadrado extends Figura{
     public double calculaArea() {
         return base*altura;
     }
-    
+    public void queFigura(){
+        System.out.println("cuadrado");
+    }
 }

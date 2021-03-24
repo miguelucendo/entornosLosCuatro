@@ -22,4 +22,8 @@ public class Circulo extends Figura{
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
+    public int getRadio() {
+        return this.radio;
+    }
+    
 }

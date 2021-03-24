@@ -9,12 +9,17 @@ package com.mycompany.entornosloscuatro;
  *
  * @author Miguel
  */
-public class Circulo {
+public class Circulo extends Figura{
  
     private int radio;
     
     public Circulo(int radio) {
         this.radio = radio;
+    }
+
+    @Override
+    public double calculaArea() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
 }

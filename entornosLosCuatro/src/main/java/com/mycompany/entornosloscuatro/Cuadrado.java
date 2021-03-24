@@ -23,6 +23,6 @@ public class Cuadrado extends Figura{
         return base*altura;
     }
     public void queFigura(){
-        System.out.println("cuadrado");
+        System.out.println("cuadrado cambiado");
     }
 }
